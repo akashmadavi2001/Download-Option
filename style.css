@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    background-color: #00bfff;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn span {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}

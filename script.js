@@ -10,7 +10,7 @@ btn.addEventListener("click",() => {
     let timer = setInterval(() => {
         if (count === 1) {
             clearInterval(timer);
-        }
+        };
         count--;
         text.innerHTML = "Your file will download in 0" + count + " seconds";
         text.style.color = "black";

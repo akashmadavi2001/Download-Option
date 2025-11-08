@@ -1,7 +1,7 @@
 const btn = document.querySelector('.btn');
 const text = document.querySelector('.text');
 
-btn.addEventListener("click",() => {
+btn.addEventListener("click", () => {
     setTimeout(() => {
         text.innerHTML = "Start Downloading...";
     }, 0);
@@ -23,3 +23,4 @@ btn.addEventListener("click",() => {
         btn.style.background = "#00bfff";
     }, 12000);
 });
+
